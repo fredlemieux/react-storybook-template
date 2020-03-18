@@ -1,0 +1,19 @@
+{
+  "name": "react-storybook-templates",
+  "version": "1.0.0",
+  "description": "A little command line tool for creating template files for react components with storybook (with a little test thrown in for free)",
+  "main": "cli.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Frederique Lemieux <fredlemi@gmail.com> (mudano.com)",
+  "license": "ISC",
+  "bin": {
+    "rsb": "./cli.js"
+  },
+  "dependencies": {
+    "replace-in-file": "^4.2.0",
+    "yargs": "^15.1.0"
+  }
+}
